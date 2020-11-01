@@ -11,7 +11,7 @@ provider "azurerm" {
 }
 
 variable "resource_group_name" {
-  default = "tailspin-space-game-rg"
+  default = "tailspin-space-game-rg-tf"
   description = "The name of the resource group"
 }
 
